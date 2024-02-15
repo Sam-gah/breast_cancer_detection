@@ -70,7 +70,7 @@ def get_scaled_values(input_dict):
   X = data.drop(['diagnosis'], axis=1)
   
   scaled_dict = {}
-  
+  #scaled valuew
   for key, value in input_dict.items():
     max_val = X[key].max()
     min_val = X[key].min()
